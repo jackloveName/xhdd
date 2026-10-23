@@ -1,0 +1,125 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录搭搭衣橱",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/outfit/index",
+      "style": {
+        "navigationBarTitleText": "搭搭衣橱",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/wardrobe/item-detail",
+      "style": {
+        "navigationBarTitleText": "单品详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/diary/archive",
+      "style": {
+        "navigationBarTitleText": "全部穿搭",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/diary/detail",
+      "style": {
+        "navigationBarTitleText": "穿搭详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/wardrobe/item-edit",
+      "style": {
+        "navigationBarTitleText": "上传单品",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/legal/index",
+      "style": {
+        "navigationBarTitleText": "协议说明",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/agreement/agreement",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mine/threeweb-view/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/diary/index",
+      "style": {
+        "navigationBarTitleText": "日记",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/wardrobe/index",
+      "style": {
+        "navigationBarTitleText": "衣橱",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/wardrobe/cancel-account",
+      "style": {
+        "navigationBarTitleText": "注销账号",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7d8581",
+    "selectedColor": "#456b5b",
+    "backgroundColor": "#f7f8f4",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/outfit/index",
+        "text": "搭配",
+        "iconPath": "static/tabbar/outfit.png",
+        "selectedIconPath": "static/tabbar/outfit-active.png"
+      },
+      {
+        "pagePath": "pages/diary/index",
+        "text": "日记",
+        "iconPath": "static/tabbar/diary.png",
+        "selectedIconPath": "static/tabbar/diary-active.png"
+      },
+      {
+        "pagePath": "pages/wardrobe/index",
+        "text": "衣橱",
+        "iconPath": "static/tabbar/wardrobe.png",
+        "selectedIconPath": "static/tabbar/wardrobe-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "搭搭衣橱",
+    "navigationBarBackgroundColor": "#f7f8f4",
+    "backgroundColor": "#f7f8f4"
+  },
+  "easycom": {
+    "autoscan": true
+  }
+}
